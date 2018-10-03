@@ -1,0 +1,8 @@
+( ; Main expr starts
+(* 5 "big bad woof")
+(let* ((x 5) (y 6) (red t) (black nil)) 
+  (if (not (and red (or black (> x (-(input) y))))) x y))
+(print "here kitty^3")
+(lambda (x y z) (/ x (- y z)))
+(input)
+)

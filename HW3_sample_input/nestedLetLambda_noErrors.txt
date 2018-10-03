@@ -1,0 +1,3 @@
+(;start expression
+  (let* ((x 5)(y 4)) (lambda (x) (let* ((z 8)) (+ z 8))))
+)
